@@ -1,0 +1,10 @@
+.başlık{
+background-color: rgb(74, 94, 163);
+height: 100px;
+}
+.klas{
+    margin: 20px 5px;
+    padding: 10px;
+    background-color:rgb(151, 171, 246) ;
+    border: 5px solid;
+}

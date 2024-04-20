@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="css/s3css.css">
+</head>
+<body>
+
+
+    <section class="p-5 text-center iletişim">
+        <div class="container">
+          <h2 class="mb-5 font-weight-bold">İletişim</h2>
+        <hr class="ayrac">
+
+        <div class="kapsayici">
+          <form action="/Home/Formdoldur/">
+            <div class="row">
+              <div class="col-30">
+                <label for="firstname">AD:</label>
+              </div>
+              <div class="col-70">
+                <input type="text" name="firstname" placeholder="Ad" required>
+              </div>
+            </div>
+      
+            <div class="row">
+              <div class="col-30">
+                <label for="lastname">SOYAD:</label>
+              </div>
+              <div class="col-70">
+                <input type="text" name="lastname" placeholder="Soyad" required>
+              </div>
+            </div>
+      
+            <div class="row">
+              <div class="col-30">
+                <label for="romanlar">EMAİL:</label>
+              </div>
+              <div class="col-70">
+                <input type="text" name="email" placeholder="Email" required>
+              </div>
+            </div>
+      
+            <div class="row">
+              <div class="col-30">
+                <label for="subject">KONU:</label>
+              </div>
+              <div class="col-70">
+                <textarea name="subject" placeholder="Bize yazın.." style="height: 150px;" required></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Kaydet">
+            </div>
+          </form>
+        </div>
+    </div>
+    </section>
+
+   
+    
+</body>
+</html>

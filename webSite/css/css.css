@@ -1,0 +1,100 @@
+/* header başlangıç */
+.header{
+  padding: 10px;
+  background: rgb(212, 226, 200);
+  text-align: center;
+font-family: 'Oswald', sans-serif;
+}
+/* header bitiş */
+
+/* ürün ekle sil başlangıç */
+body {
+  font-family: Arial, sans-serif;
+}
+h2 {
+  color: #333;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+.address-form {
+  max-width: 400px;
+}
+/* ürün ekle sil bitiş */
+.klas{
+  background-color: #7dab7f;
+  padding: 10px;
+  
+}
+.resimSlider{
+height: 500px;
+}
+.carousel{
+  margin: 10px 50px ;
+  max-width: 100%; /* Slider'ın en fazla ekran genişliğine kadar genişlemesini sağlar */
+  height: auto; /* Yüksekliği otomatik olarak ayarlar ve orantılı olarak küçültür */
+}
+#clock {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.ayrac{
+   border: none;
+   border-top:3px solid #343a40 ;
+   max-width: 350px;
+   margin: 25px auto;
+ }
+.figure:hover{
+    opacity: 0.8px;
+}
+button{
+  display: block;
+  margin: 20px auto;
+  background: red;
+  color: white;
+  border: 0;
+  padding: 6px 10px;
+}
+.main-popup{
+  background: rgb(212, 226, 200);
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+color: #343a40;
+border:3px solid #343a40;
+}
+.popup{  
+  text-align: center;
+  width: 100%;
+  max-width: 350px;
+  margin: auto;  
+  margin-top: 20px;
+  padding: 10px;
+  background: white;
+  position: relative;
+border:3px solid #343a40;
+}
+.popup a{
+  background: #343a40;
+  color: white;
+  padding: 7px 11px;
+  text-decoration: none;
+ 
+}
+.popup-close{
+  position: absolute;
+  cursor: pointer;
+  top: 4px;
+  right: 7px;
+
+}
+
+
